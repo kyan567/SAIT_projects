@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Travel Experts - Register</title>
+	<style type="text/css">
+    .clientForm {
+		position : relative;
+		top : 5px;
+		left : 36%;
+
+		
+        width: 315px;
+        clear: right;
+		
+		padding: 40px 40px;
+		
+		background-color:white;
+		border-style: outset;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		border-radius: 8px;
+    }
+	.clientForm input {
+		width: 100%;
+		margin-top : 5px;
+		margin-bottom : 5px;
+      /* clear: right;*/
+    }
+
+    </style>
+</head>
+
+<body bgcolor=#E0F4FD>
+
+<body>
+
+	<h1 align = "center">New member registration</h1>
+	
+	<!-- <div > -->
+	<form class = "clientForm" method = "get" action = "bouncer.php">
+		<table style = "table-layout : auto" width = "300px">
+			<tr>
+				<td>First Name:</td>
+				<td><input type = "text" name = "firstname" value = "enter name here" id = "name"></input></td>
+			</tr>
+
+			<tr>
+				<td>Last Name:</td>
+				<td><input type = "text" name = "lastname" value = "enter last name here" id = "last"></input></td>
+			</tr>
+
+			<tr>
+				<td>Email:</td>
+				<td><input type = "text" name = "email" value = "enter email here" id = "email"></input></td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td><input type = "password" name = "lastname" id = "password"></input></td>
+			</tr>
+
+			<tr>
+				<td><label for = "age">Age:</label></td>
+			
+				<td><input type = "number" name = "age" id = "age" min = "18" max = "100"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for = "gender">Gender:</label></td>
+				<td><label for = "female_label">Female:</label><input type = "radio" name = "female" id = "female" value = "f"></input>
+					<label for = "male_label">Male:</label><input type = "radio" name = "male" id = "male" value = "m"></input></td>
+			</tr>
+			
+			<tr>
+				<td><label for = "mail">Subscribe to our mail list?</label></td>
+				<td><label for = "agree">Agree: </label><input type = "checkbox" name = "mail_check" id = "mail"></input></td>
+			</tr>
+
+			<tr>
+				<td><input type = "submit" value = "Send"/></td>
+				<td><input type = "reset" value = "Reset"/></td>
+			</tr>
+			
+		</table>
+		
+	</form>
+	<!-- </div> -->
+
+</body>
+
+</html>
